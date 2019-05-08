@@ -16,5 +16,10 @@ namespace Oreilly_Csharp_ch6_SubClass_P273
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
