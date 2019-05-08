@@ -19,7 +19,15 @@ namespace Oreilly_Csharp_ch6_SubClass_P273
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            string AAA = "AAAAAA";
+            MyBaseClass baseA = new MyBaseClass(AAA);
+        }
 
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            string BBB = "BBBBBB";
+            int CCC = 123;
+            MySubClass baseB = new MySubClass(BBB,CCC);
         }
     }
 }
