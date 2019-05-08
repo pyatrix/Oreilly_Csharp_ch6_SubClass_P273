@@ -9,7 +9,7 @@ namespace Oreilly_Csharp_ch6_SubClass_P273
 {
     class MySubClass:MyBaseClass
     {
-        public MySubClass(string baseClassNeedsThis, int anotherValue)
+        public MySubClass(string baseClassNeedsThis, int anotherValue) : base(baseClassNeedsThis)
         {
             MessageBox.Show("This is the subclass: " + baseClassNeedsThis + " and " + anotherValue);
         }
